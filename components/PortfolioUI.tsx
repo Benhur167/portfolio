@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { webProjects, androidProjects, cinematicVideos } from "@/lib/data"
+import { webProjects, mobileProjects, cinematicVideos } from "@/lib/data"
 import { Play, ArrowRight, Code, ExternalLink, X, FileText, Mail } from "lucide-react"
 import { motion, Variants, AnimatePresence } from "framer-motion"
 
@@ -93,7 +93,7 @@ export default function PortfolioUI() {
               <div>
                 <h3 className="text-xs font-mono tracking-[0.2em] text-white/50 uppercase mb-3">Core Stack</h3>
                 <div className="flex flex-wrap gap-2">
-                  {['React / Next.js', 'TypeScript', 'JavaScript', 'Python', 'Flutter / Dart', 'OpenCV / CV', 'Node.js', 'REST APIs', 'Three.js / WebGL', 'React Three Fiber', 'Framer Motion', 'TailwindCSS', 'Lenis'].map(skill => (
+                  {['React / Next.js', 'React Native', 'Expo', 'Kotlin', 'Jetpack Compose', 'TypeScript', 'JavaScript', 'Python', 'Flutter / Dart', 'OpenCV / CV', 'Node.js', 'REST APIs', 'Three.js / WebGL', 'React Three Fiber', 'Framer Motion', 'TailwindCSS', 'Lenis'].map(skill => (
                     <span key={skill} className="text-[10px] uppercase tracking-wider px-3 py-1 rounded-full border border-white/10 bg-white/5 text-zinc-300">
                       {skill}
                     </span>
@@ -102,8 +102,8 @@ export default function PortfolioUI() {
               </div>
               
               <a
-                href="/BenhurResume.pdf"
-                download="BenhurResume.pdf"
+                href="/Ben_Resume.pdf"
+                download="Ben_Resume.pdf"
                 className="group w-fit mt-4 flex items-center gap-3 px-6 py-3 bg-white text-black text-xs font-bold tracking-widest uppercase rounded-full hover:bg-zinc-200 transition-colors"
               >
                 <FileText className="w-4 h-4" />
@@ -201,7 +201,7 @@ export default function PortfolioUI() {
           viewport={{ once: true, amount: 0.1 }}
           className="flex flex-col gap-6 w-full max-w-2xl pointer-events-auto"
         >
-          {androidProjects.map((project, i) => (
+          {mobileProjects.map((project, i) => (
             <motion.div 
               variants={fadeInUp}
               key={project.id} 

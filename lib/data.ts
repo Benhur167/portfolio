@@ -19,11 +19,47 @@ export const webProjects = [
     githubUrl: "https://github.com/Benhur167/Gesture-Canvas",
     demoUrl: "",
   },
+  {
+    id: 3,
+    title: "Carbon Calculator",
+    description: "A professional GHG Protocol Carbon Emissions Calculator featuring real-time tracking, multi-site management, and automated reporting.",
+    tags: ["JavaScript", "Python", "HTML", "CSS"],
+    year: "2026",
+    githubUrl: "https://github.com/Benhur167/Carbon-Calculator",
+    demoUrl: "",
+  },
 ]
 
-export const androidProjects = [
+export const mobileProjects = [
   {
     id: 1,
+    title: "DoomShield",
+    description: "Android-based digital wellness application designed to reduce doomscrolling through screen-time tracking, usage monitoring, and focus-enhancing intervention features.",
+    tags: ["Kotlin", "Jetpack Compose", "Room Database", "Accessibility Service"],
+    year: "2026",
+    githubUrl: "https://github.com/Benhur167/DoomShield",
+    demoUrl: "",
+  },
+  {
+    id: 2,
+    title: "Habit Tracker",
+    description: "Beautiful, offline-first mobile application built with React Native and Expo to help users build habits, maintain daily routines, and track streaks with elegant dark-mode UI and spring animations.",
+    tags: ["React Native", "Expo", "TypeScript", "AsyncStorage"],
+    year: "2026",
+    githubUrl: "https://github.com/Benhur167/Habit_Tracker",
+    demoUrl: "",
+  },
+  {
+    id: 3,
+    title: "Minimalist Notes App",
+    description: "A sleek, fast, and lightweight offline notes application built with React Native CLI featuring categories, live search, tag filtering, and local persistence.",
+    tags: ["React Native CLI", "TypeScript", "AsyncStorage", "Offline-First"],
+    year: "2026",
+    githubUrl: "https://github.com/Benhur167/Minimalist_Notes_App",
+    demoUrl: "",
+  },
+  {
+    id: 4,
     title: "Flutter Shopping App",
     description: "A clean Flutter shopping app showcasing product browsing, cart management, and state handling using the Provider pattern.",
     tags: ["Flutter", "Dart", "Provider", "Material UI"],
@@ -32,7 +68,7 @@ export const androidProjects = [
     demoUrl: "",
   },
   {
-    id: 2,
+    id: 5,
     title: "Currency Converter",
     description: "A Flutter app that converts USD to INR with a clean, minimal UI and real-time currency calculation.",
     tags: ["Flutter", "Dart", "REST API", "Material UI"],
@@ -41,7 +77,7 @@ export const androidProjects = [
     demoUrl: "",
   },
   {
-    id: 3,
+    id: 6,
     title: "Weather App",
     description: "A Flutter app that displays real-time weather data including temperature, forecasts, and key metrics like humidity and wind speed.",
     tags: ["Flutter", "Dart", "Weather API", "Geolocation"],
