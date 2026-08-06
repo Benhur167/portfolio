@@ -102,8 +102,8 @@ export default function PortfolioUI() {
               </div>
               
               <a
-                href="/Ben_Resume (2).pdf"
-                download="Ben_Resume (2)"
+                href="/Ben_Resume.pdf"
+                download="Ben_Resume.pdf"
                 className="group w-fit mt-4 flex items-center gap-3 px-6 py-3 bg-white text-black text-xs font-bold tracking-widest uppercase rounded-full hover:bg-zinc-200 transition-colors"
               >
                 <FileText className="w-4 h-4" />
